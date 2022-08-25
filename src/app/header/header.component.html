@@ -1,2 +1,11 @@
 <p>header works!</p>
-<app-box></app-box>
+
+<p>Tu jest interpolacja {{zmienna}}</p>
+
+<div *ngIf="warunek">
+<input type="text" [(ngModel)]="inputValue">
+
+<button (click)="showValue()">Click</button>
+</div>
+
+<button (click)="showDiv()">Show input</button>
