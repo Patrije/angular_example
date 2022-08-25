@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Student, StudentService } from '../service/student.service';
 
 @Component({
   selector: 'app-header',
@@ -10,10 +11,13 @@ export class HeaderComponent implements OnInit {
   warunek = true;
   zmienna = 'napis';
   inputValue = 'wartosc inputu'
-
-  constructor() { }
+  students: Student[];
+  constructor(private studentService: StudentService) {
+    this.students = this.studentService.getStudents();
+   }
 
   ngOnInit(): void {
+
   }
 
   showValue(){
