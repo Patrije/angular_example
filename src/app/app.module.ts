@@ -7,6 +7,8 @@ import { ToolsComponent } from './tools/tools.component';
 import { HeaderComponent } from './header/header.component';
 import { BoxComponent } from './box/box.component';
 import { OwoceComponent } from './owoce/owoce.component';
+import { ToDoListComponent } from './to-do-list/to-do-list.component';
+import { ToDoItemComponent } from './to-do-item/to-do-item.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { OwoceComponent } from './owoce/owoce.component';
     ToolsComponent,
     HeaderComponent,
     BoxComponent,
-    OwoceComponent
+    OwoceComponent,
+    ToDoListComponent,
+    ToDoItemComponent
   ],
   imports: [
     BrowserModule,
