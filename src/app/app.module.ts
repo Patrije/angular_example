@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ToolsComponent } from './tools/tools.component';
 import { HeaderComponent } from './header/header.component';
 import { BoxComponent } from './box/box.component';
+import { OwoceComponent } from './owoce/owoce.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolsComponent,
     HeaderComponent,
-    BoxComponent
+    BoxComponent,
+    OwoceComponent
   ],
   imports: [
     BrowserModule,
