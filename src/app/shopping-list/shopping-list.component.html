@@ -1,0 +1,7 @@
+<p>shopping list:</p>
+<app-shopping-list-item *ngFor="let shoppingListItem of shoopingItems" [shoppingItem]="shoppingListItem"></app-shopping-list-item>
+
+<div>
+    <input type="text" [(ngModel)]="newItem">
+    <button (click)="addNewItem()">Add new shopping item</button>
+</div>

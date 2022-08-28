@@ -9,6 +9,8 @@ import { BoxComponent } from './box/box.component';
 import { OwoceComponent } from './owoce/owoce.component';
 import { ToDoListComponent } from './to-do-list/to-do-list.component';
 import { ToDoItemComponent } from './to-do-item/to-do-item.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
+import { ShoppingListItemComponent } from './shopping-list-item/shopping-list-item.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { ToDoItemComponent } from './to-do-item/to-do-item.component';
     BoxComponent,
     OwoceComponent,
     ToDoListComponent,
-    ToDoItemComponent
+    ToDoItemComponent,
+    ShoppingListComponent,
+    ShoppingListItemComponent
   ],
   imports: [
     BrowserModule,

@@ -19,4 +19,5 @@ export class ToDoListComponent implements OnInit {
     this.currentTodo = currentTodo;
   }
 
+
 }
