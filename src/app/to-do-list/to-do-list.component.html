@@ -1,3 +1,6 @@
 <h1>To do list</h1>
 
-<app-to-do-item *ngFor="let todo of todos" [item]="todo"></app-to-do-item>
+<app-to-do-item *ngFor="let todo of todos" [item]="todo" (todoItemEvent)="whatIsCurrentTodo($event)"></app-to-do-item>
+
+
+<p>Current todo: {{currentTodo}}</p>

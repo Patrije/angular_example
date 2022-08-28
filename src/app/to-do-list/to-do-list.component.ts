@@ -8,10 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class ToDoListComponent implements OnInit {
 
   todos = ['learning', 'eat dinner', 'go shopping', 'dish washing'];
-  
+  currentTodo = '';
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  whatIsCurrentTodo(currentTodo:string){
+    this.currentTodo = currentTodo;
   }
 
 }
