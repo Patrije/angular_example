@@ -13,6 +13,7 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingListItemComponent } from './shopping-list-item/shopping-list-item.component';
 import { PostsComponent } from './posts/posts.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AlbumsComponent } from './albums/albums.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HttpClientModule } from '@angular/common/http';
     ToDoItemComponent,
     ShoppingListComponent,
     ShoppingListItemComponent,
-    PostsComponent
+    PostsComponent,
+    AlbumsComponent
   ],
   imports: [
     BrowserModule,
