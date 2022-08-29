@@ -1,0 +1,12 @@
+.userDetails{
+    font-weight: bold;
+
+}
+
+.userAddressDetails{
+    font-style: italic;
+}
+
+.user{
+    padding: 5px;
+}

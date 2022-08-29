@@ -14,6 +14,10 @@ import { ShoppingListItemComponent } from './shopping-list-item/shopping-list-it
 import { PostsComponent } from './posts/posts.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AlbumsComponent } from './albums/albums.component';
+import { UsersComponent } from './users/users.component';
+import { UserComponent } from './users/user/user.component';
+import { MatDividerModule } from '@angular/material/divider';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -27,13 +31,17 @@ import { AlbumsComponent } from './albums/albums.component';
     ShoppingListComponent,
     ShoppingListItemComponent,
     PostsComponent,
-    AlbumsComponent
+    AlbumsComponent,
+    UsersComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatDividerModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

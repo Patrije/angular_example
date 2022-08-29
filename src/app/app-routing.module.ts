@@ -6,6 +6,8 @@ import { OwoceComponent } from './owoce/owoce.component';
 import { PostsComponent } from './posts/posts.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ToDoListComponent } from './to-do-list/to-do-list.component';
+import { UserComponent } from './users/user/user.component';
+import { UsersComponent } from './users/users.component';
 
 const routes: Routes = [
   {path: 'owoce', component: OwoceComponent},
@@ -13,7 +15,9 @@ const routes: Routes = [
   {path: 'todos', component: ToDoListComponent},
   {path: 'box', component: BoxComponent},
   {path: 'posts', component: PostsComponent},
-  {path: 'albums', component: AlbumsComponent}
+  {path: 'albums', component: AlbumsComponent},
+  {path: 'users', component: UsersComponent}
+
 
 ];
 
